@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive Book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style>
+        .display {
+            display: none;
+        }
+    </style> -->
+</head>
+
+<body>
+    <h1 class="text-center"> <span class="fw-bold">Search Your Favourite Book Which you Want!</span></h1>
+    <section class="container my-2  ">
+        <div class="d-flex w-10px h-10px ">
+            <input type="text" class="form-control me-2" placeholder="Search for your fav. book " id="searchBook" />
+            <button onclick="inputSearch()" class="bg-secondary rounded" id="searchInput">Search-book</button>
+        </div>
+
+        <!-- spinner -->
+        <div id="spinner" class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </section>
+
+    <div id="result">
+
+    </div>
+
+    <!-- Card Section -->
+
+    <section>
+        <h2 id="books"></h2>
+        <!-- Error -->
+        <!-- <div id="divContainer" class="divContainer row row-cols-1 row-cols-md-3 g-4"> -->
+        <div id="divContainer" class=" row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
